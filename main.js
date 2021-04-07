@@ -19,7 +19,7 @@ function draw() {
     background("grey")
     textSize(difference)
     fill("0, 0, 255")
-    text("Ishan",)
+    text("Ishan", nose_x, nose_y)
     document.getElementById("square_side").innerHTML = "The size of the text will be " + difference
 }
 
